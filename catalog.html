@@ -8,8 +8,10 @@
 <body>
   <header>
     <nav>
+      <a href="index.html">
+        <img src="" alt="Логотип Седоны" width="" height="">
+      </a>
       <ul>
-        <a href="index.html"><img src="#" alt="Логотип Седоны" width="#" height="#"></a>
         <li><a href="blank.html">Информация</a></li>
         <li><a href="blank.html">Фото и видео</a></li>
         <li><a href="blank.html">Карта штата</a></li>
@@ -62,13 +64,17 @@
 
           <fieldset>
           <legend>Стоимость в сутки(р):</legend>
-            От 0<input type="range" min="0" max="3000" step="500" name="price for day">До 3000
+          <label for="starting-price">От 0</label>
+          <input type="number" min="0" name="minimum-value" id="starting-price">
+          <label for="final-price">До 3000</label>
+          <input type="number" max="3000" name="maximum-value" id="final-price">
         </fieldset>
         <button type="submit">Показать</button>
       </form>
     </section>
 
     <section>
+      <h2>Сортировка</h2>
       <strong>Найдено: 3</strong>
       <span>Сортировка:</span>
       <ul>
@@ -84,7 +90,7 @@
           <li>
             <h3>Amara Resort&SPA</h3>
             <p>
-              <img src="#" alt="Фото Amara Resort&SPA" width="#" height="#">
+              <img src="" alt="Фото Amara Resort&SPA" width="" height="">
             </p>
 
             <p>Гостиница
@@ -94,7 +100,7 @@
             </p>
 
             <p>
-              <img src="#" alt="" width="#" height="#">
+              <img src="" alt="" width="" height="">
               Рейтинг: 8,5
             </p>
           </li>
@@ -102,7 +108,7 @@
           <li>
             <h3>Desert Quail Inn</h3>
             <p>
-              <img src="#" alt="Фото Desert Quail Inn" width="#" height="#">
+              <img src="" alt="Фото Desert Quail Inn" width="" height="">
             </p>
 
             <p>Мотель
@@ -112,14 +118,15 @@
             </p>
 
             <p>
-              <img src="#" alt="" width="#" height="#">
+              <img src="" alt="" width="" height="">
               Рейтинг: 8,9
+            </p>
           </li>
 
           <li>
             <h3>Villas At Poco Diablo</h3>
             <p>
-              <img src="#" alt="Фото Villas At Poco Diablo" width="#" height="#">
+              <img src="" alt="Фото Villas At Poco Diablo" width="" height="">
             </p>
 
             <p>Апартаменты
@@ -129,8 +136,9 @@
             </p>
 
             <p>
-              <img src="#" alt="" width="#" height="#">
+              <img src="" alt="" width="" height="">
               Рейтинг: 9,2
+            </p>
           </li>
         </ul>
     </section>
@@ -159,8 +167,9 @@
     </section>
 
     <section>
+      <h2>Разработано</h2>
       <p>
-        Website by <img src="#" alt="Логотип HTML Academy" width="#" height="#">
+        Website by <img src="" alt="Логотип HTML Academy" width="" height="">
       </p>
     </section>
   </footer>
