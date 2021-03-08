@@ -1,0 +1,227 @@
+/* Fonts */
+
+@font-face {
+  font-family:"PT Sans";
+  src: url("../fonts/PTSans-Bold.woff2") format("woff2"),
+    url("../fonts/PTSans-Bold.woff") format("woff")
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:"PT Sans";
+    src: url("../fonts/PTSans.woff2") format("woff2"),
+      url("../fonts/PTSans.woff") format("woff")
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+/* Variables */
+
+:root {
+  --basic-white: #ffffff;
+  --basic-black: #000000;
+  --basic-light-blue: #81B3D2;
+  --basic-gray: #eeeeee;
+  --basic-brown: #766357;
+  --basic-dark-gray: #333333;
+
+
+  --additional-gray: #f2f2f2;
+  --additional-brown: #604E43;
+  --hover-gray: #EBEBEB;
+  --hover-light-blue: #669EC0;
+  --special: #a9a9a9;
+}
+
+/* Global */
+
+.page-body {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans Bold", Arial, sans-serif;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Main navigation */
+
+.main-nav {
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+.site-nav {
+  list-style: none;
+}
+
+.site-nav-current a:not([href]) {
+  background-color: var(--basic-white);
+}
+
+/* User navigation */
+
+
+.site-nav a,
+.user-nav a {
+  color: var(--basic-black);
+}
+
+.site-nav a:hover,
+.site-nav a:focus,
+.user-nav a:hover,
+.user-nav a:focus {
+  color: var(--basic-light-blue);
+}
+
+.about-us {
+  background-color: var(--basic-white);
+}
+
+.features{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--basic-dark-gray);
+}
+
+.features-list {
+  list-style: none;
+}
+
+.main-features {
+  background-color: var(--basic-light-blue);
+  color: var(--basic-white);
+}
+
+.features h3 {
+  font-size: 21px;
+}
+
+.additional-features {
+  background-color: var(--basic-gray);
+}
+
+.search-hotel b {
+  font-size: 30px;
+  line-height: 24px;
+  background-color: var(--basic-white);
+}
+
+.search-hotel p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--basic-dark-gray);
+}
+
+.search-hotel h2 {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 400;
+  color: var(--basic-white);
+  background-color: var(--basic-brown);
+}
+
+.search-hotel h2:hover,
+.search-hotel h2:focus {
+  background-color: var(--additional-brown);
+}
+
+.search-item label{
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  color: var(--basic-black);
+}
+
+.search-item input{
+  font: inherit;
+  background-color: var(--additional-gray);
+  border: 0px;
+}
+
+.search-item input:hover{
+  background-color: var(--hover-gray);
+}
+
+.search-item input:focus {
+  background-color: var(--basic-white);
+}
+
+.button {
+  background-color: var(--basic-light-blue);
+  color: var(--basic-white);
+  border: none;
+}
+
+.button:hover {
+  background-color: var(--hover-light-blue);
+}
+
+.plus, .minus {
+  background-color: var(--special);
+}
+
+.plus:hover,
+.minus:hover {
+  background-color:var(--basic-black);
+}
+
+.main-footer {
+  background-color: var(--basic-white, 0.9);
+}
+
+.footer-contacts {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.footer-contacts a,
+.footer-social a {
+  color: var(--basic-black);
+}
+
+.footer-social li{
+  list-style: none;
+}
+
+.social-button .img {
+  background-color: var(--basic-light-blue);
+}
+
+.social-button img:hover,
+.social-button img:focus {
+  background-color: var(--hover-light-blue);
+}
+
+.footer-copyright {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: var(--basic-black);
+}
+
+.footer-copyright .img:hover,
+.footer-copyright .img:focus {
+  background-color: var(--basic-light-blue);
+}
