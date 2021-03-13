@@ -94,6 +94,9 @@
 
 .about-us {
   background-color: var(--basic-white);
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
 }
 
 .features{
@@ -101,6 +104,10 @@
   font-size: 14px;
   line-height: 21px;
   color: var(--basic-dark-gray);
+}
+
+.reasons {
+  line-height: 26px;
 }
 
 .features-list {
@@ -120,13 +127,14 @@
   background-color: var(--basic-gray);
 }
 
-.search-hotel b {
+.search-hotel .search-question {
   font-size: 30px;
   line-height: 24px;
+  font-weight: 700;
   background-color: var(--basic-white);
 }
 
-.search-hotel p {
+.search-hotel .search-description {
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
@@ -136,7 +144,7 @@
 .search-hotel h2 {
   font-size: 21px;
   line-height: 26px;
-  font-weight: 400;
+  font-weight: 700;
   color: var(--basic-white);
   background-color: var(--basic-brown);
 }
@@ -194,6 +202,12 @@
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
+}
+
+.footer-hashtag {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
 }
 
 .footer-contacts a,
